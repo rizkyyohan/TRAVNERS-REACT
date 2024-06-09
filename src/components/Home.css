@@ -15,6 +15,8 @@ body {
 
 .navbar {
   position: fixed;
+  left: 0;
+  top: 0;
   width: 110%;
   display: flex;
   justify-content: space-between;
@@ -469,4 +471,38 @@ footer {
 
 .footer-copyright p {
   margin: 0;
+}
+
+.auth-buttons {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  right: 100px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu li:hover {
+  background: #f0f0f0;
 }
