@@ -1,8 +1,8 @@
 import React from "react";
-import "./Home.css";
+import "../css/Home.css";
 import feather from "feather-icons";
-import Navbar from "./Navbar";
-import Card from "./Card"; // Import Card
+import Navbar from '../components/Navbar'
+import Card from '../components/Card'
 
 class Home extends React.Component {
   componentDidMount() {
@@ -12,26 +12,30 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Navbar /> {/* Use Navbar */}
-        <section className="hero">
-          <div className="hero-content">
-            <div className="hero-text">
+        <div className='navbar'>
+                <Navbar/>
+            </div>
+
+        <section className="hero-home">
+          <div className="hero-home-content">
+            <div className="hero-home-text">
               <h1>
                 Selamat Datang di <span>Website Kami</span>
               </h1>
               <p>Kami selalu membuat pelanggan kami nyaman dengan menyediakan sebanyak mungkin pilihan</p>
               <button className="btn-explore">Eksplor</button>
             </div>
-            <div className="hero-images">
+            <div className="hero-home-images">
               <img src="img/img1.png" alt="Image 1" />
               <img src="img/img2.png" alt="Image 2" />
               <img src="img/img3.png" alt="Image 3" id="imggg" />
             </div>
           </div>
         </section>
-        <section className="features">
-          <div className="features-content">
-            <div className="features-text">
+
+        <section className="features-home">
+          <div className="features-home-content">
+            <div className="features-home-text">
               <h2>Pelayanan</h2>
               <p>Top pelayanan terbaik kami untuk anda</p>
             </div>
@@ -49,6 +53,7 @@ class Home extends React.Component {
             </div>
           </div>
         </section>
+
         <div className="slider-container">
           <div className="top">
             <div className="judul">
@@ -62,11 +67,13 @@ class Home extends React.Component {
           </div>
 
           <div className="slider">
-            <Card imageSrc="img/seaworld.png" title="Seaworld Ancol, Jakarta Utara" location="Jakarta, Indonesia" price="RP 250.000" rating="4.8" />
-            <Card imageSrc="img/pasarSeni.png" title="Pasar Seni Ancol, Jakarta Utara" location="Jakarta, Indonesia" price="RP 50.000" rating="4.8" />
-            <Card imageSrc="img/dufan.png" title="Dufan Ancol, Jakarta Utara" location="Jakarta, Indonesia" price="RP 215.000" rating="4.8" />
+            <div className="card" id="1"></div>
+            <div className="card" id='2'></div>
+          
+            <div className="card" id="3"></div>
           </div>
         </div>
+
         <div className="fasilitas">
           <div className="gambarkiri">
             <img className="img1" src="img/dog.png" alt="" />
@@ -110,6 +117,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+
         <div className="promo">
           <div className="tekskiri">
             <div className="kontenteks">
@@ -138,25 +146,8 @@ class Home extends React.Component {
             <img className="gambar4" src="img/borderpromo.png" alt="" />
           </div>
         </div>
-        <footer>
-          <div className="footer-container">
-            <div className="footer-contact">
-              <h2>Contact Us</h2>
-              <p>Email: powerpioneers@gmail.com</p>
-              <p>Hotline: 123-456-7890</p>
-            </div>
-            <div className="footer-social-media">
-              <img src="img/LOGOPP.png" alt="" />
-              <h2>Social Media</h2>
-              <a href="#">Facebook</a>
-              <a href="#">Twitter</a>
-              <a href="#">Instagram</a>
-            </div>
-          </div>
-          <div className="footer-copyright">
-            <p>&copy; 2024 Power Pioners. All Rights Reserved.</p>
-          </div>
-        </footer>
+
+        
       </div>
     );
   }

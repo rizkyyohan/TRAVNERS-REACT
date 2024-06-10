@@ -7,6 +7,10 @@ import Pemesanan from "./components/Pemasanan";
 import DetailPemesanan from "./components/DetailPemesanan";
 import Pembayaran from "./components/Pembayaran";
 import KonfirmasiPembayaran from "./components/KonfirmasiPembayaran";
+import About from "./components/About";
+import Travel from "./components/Travel";
+import ArtikelPage from "./components/ArtikelPage";
+
 function App() {
   return (
     <Router>
@@ -20,6 +24,9 @@ function App() {
           <Route path="/detail" element={<DetailPemesanan />} />
           <Route path="/pembayaran" element={<Pembayaran />} />
           <Route path="/konfirmasi" element={<KonfirmasiPembayaran />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/travel" element={<Travel />} />
+          <Route path="/artikel" element={<ArtikelPage />} />
         </Routes>
       </div>
     </Router>

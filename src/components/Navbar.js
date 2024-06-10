@@ -12,13 +12,13 @@ const Navbar = () => {
           <a href="/home">Home</a>
         </li>
         <li>
-          <a href="#">About Us</a>
+          <a href="/about">About Us</a>
         </li>
         <li>
-          <a href="#">Paket Travel</a>
+          <a href="/travel">Paket Travel</a>
         </li>
         <li>
-          <a href="/pemesanan">Artikel</a>
+          <a href="/artikel">Artikel</a>
         </li>
       </ul>
       <AuthButton /> {/* Use AuthButton */}

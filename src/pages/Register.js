@@ -1,5 +1,5 @@
 import React from "react";
-import "./Register.css";
+import "../css/Register.css";
 
 const Register = () => {
   return (
@@ -20,7 +20,7 @@ const Register = () => {
           <label htmlFor="ulangipassword">Ulangi Kata Sandi:</label>
           <input type="password" id="ulangipassword" name="ulangipassword" />
 
-          <button type="submit">Daftar</button>
+          <button href="/home" type="submit">Daftar</button>
 
           <p>
             <a href="/login">Sudah punya akun?</a>
