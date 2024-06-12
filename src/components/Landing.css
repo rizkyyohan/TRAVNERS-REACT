@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons+Outlined");
 .Header {
   width: 100px;
   padding: 10px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .logo-header {
@@ -44,8 +45,8 @@
 
 .blur-box-landing {
   position: absolute;
-  height: 150px;
-  bottom: -50px;
+  height: 180px;
+  bottom: -70px;
   left: 50%;
   transform: translateX(-50%);
   background: #ffffff39;
@@ -66,16 +67,23 @@
 
 .icon {
   color: #242277;
-  margin: 0px 5px -6px 5px;
+  margin: 0 5px -6px 5px;
   justify-content: center;
   align-items: center;
 }
 
+.material-icons-outlined {
+  font-size: 54px;
+  font-weight: 600;
+}
+
 .feature-landing p {
+  text-align: center;
+  margin-left: 20px;
   width: 200px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -109,6 +117,11 @@
   height: auto;
   object-fit: cover;
   margin-top: 13%;
+}
+
+.place img:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
 }
 
 .blog {

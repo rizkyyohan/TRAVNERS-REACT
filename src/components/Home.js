@@ -124,11 +124,11 @@ class Home extends React.Component {
             </div>
             <div className="keunggulan">
               <h2>Keamanan Perjalanan</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptatum accusamus? Doloremque.</p>
+              <p>Membuat pengalaman perjalanan anda menjadi aman, nyaman, dan menyenangkan sehingga suasana hati semakin indah</p>
               <h2>Harga Ramah di Kantong</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto aut illum.</p>
+              <p>Menyediakan paket travel dengan harga terjangkau tetapi pastinya tetap worth it</p>
               <h2>Kenyamanan Akomodasi</h2>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quis excepturi repudiandae?</p>
+              <p>Menyediakan akomodasi perjalanan yang berkualitas sehingga perjalanan semakin nyaman</p>
             </div>
           </div>
           <div className="gambarkanan">

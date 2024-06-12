@@ -2,6 +2,9 @@ import React from "react";
 import "./Register.css";
 
 const Register = () => {
+  const redirectToLogin = () => {
+    window.location.href = "/login";
+  };
   return (
     <div className="container">
       <div className="login">
@@ -20,7 +23,9 @@ const Register = () => {
           <label htmlFor="ulangipassword">Ulangi Kata Sandi:</label>
           <input type="password" id="ulangipassword" name="ulangipassword" />
 
-          <button type="submit">Daftar</button>
+          <button type="submit" onClick={redirectToLogin}>
+            Daftar
+          </button>
 
           <p>
             <a href="/login">Sudah punya akun?</a>
