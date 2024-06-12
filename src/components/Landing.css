@@ -1,4 +1,3 @@
-/**header*/
 .Header {
   display: flex;
   justify-content: space-between;
@@ -9,7 +8,7 @@
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #242277
+  color: #242277;
 }
 
 .explore-button {
@@ -23,19 +22,10 @@
 }
 
 /****/
-  *{
-    padding: 0;
-    margin: 10px 15px;
-    color: #242277;
-}
-
-
-
 .hero {
   position: relative;
   text-align: center;
   color: #242277;
-  
 }
 
 .hero img {
@@ -43,8 +33,8 @@
   height: auto;
 }
 
-.hero::before{
-  content: '';
+.hero::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -84,7 +74,7 @@
 
 .feature p {
   width: 200px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -98,11 +88,10 @@
 .popular h2 {
   margin-bottom: 50px;
   color: #242277;
-  border-bottom: #0000002a ;
+  border-bottom: #0000002a;
 }
 
-.yellow-text{
- 
+.yellow-text {
   color: #ffcc00;
 }
 
@@ -121,7 +110,6 @@
   height: auto;
   object-fit: cover;
   margin-top: 13%;
-  
 }
 
 .blog {
@@ -129,20 +117,17 @@
   padding: 20px 0;
 }
 
-.pp-blog{
+.pp-blog {
   display: flex;
   align-items: center;
 }
 
-.pp-blog a{
+.pp-blog a {
   color: #242277;
   text-align: end;
   justify-content: right;
   margin-left: auto;
-
 }
-
-
 
 .blog h2 {
   text-align: left;
@@ -154,15 +139,14 @@
 
 .blog-posts {
   display: flex;
-  
 }
 
-.blog-posts img{
+.blog-posts img {
   width: 500px;
   margin: 0 0 0 0;
 }
 
-.artikel{
+.artikel {
   margin: 0 10px 0 0;
 }
 
@@ -172,87 +156,82 @@
   margin: 0 0 0 0;
 }
 
-.blog-artikel img{
+.blog-artikel img {
   width: 200px;
-  margin:0 0px 0 0;
+  margin: 0 0px 0 0;
 }
 
-.blog-text{
-  margin: 0 ;
+.blog-text {
+  margin: 0;
   font-size: 12px;
 }
 
-.blog-tag{
+.blog-tag {
   position: absolute;
 }
 
+.tag {
+  position: absolute;
+  font-size: 15px;
+  padding: 0 15px;
+  margin: 0;
+  background-color: #ffffffb2;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 
-  .tag{
-      position: absolute;
-      font-size: 15px;
-      padding: 0 15px;
-      margin: 0;
-      background-color: #ffffffb2;
-      border-radius: 20px;
-      font-size: 18px;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-  }
+.eksplor-border {
+  width: auto;
+  border: 1px solid #ffcc00;
+  border-radius: 20px;
+  margin: 100px;
+  z-index: -5;
+}
+.eksplor {
+  width: auto;
+  height: auto;
+  margin: 0 15px -30px -15px;
+  padding: 0 0;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.213);
+}
 
-  .eksplor-border{
-      width: auto;
-      border: 1px solid #ffcc00;
-      border-radius: 20px;
-      margin: 100px;
-      z-index: -5;
-  }
-  .eksplor{
-      width: auto;
-      height: auto;
-      margin: 0 15px -30px -15px;
-      padding: 0 0;
-      background: rgb(255, 255, 255);
-      border-radius: 20px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.213);
-  }
+.blog-eksplor {
+  width: 400px;
+  margin: 100px 0 0 100px;
+  text-align: left;
+}
 
-  .blog-eksplor{
-      width: 400px;
-      margin: 100px 0 0 100px;
-      text-align: left;
-  }
+.blog-eksplor h2 {
+  color: #242277;
+  width: 360px;
+}
 
-  .blog-eksplor h2{
-      color: #242277;
-      width: 360px;
-  }
-
-  .gradient-border{
+.gradient-border {
   padding: 1rem;
   width: 380px;
   height: 170px;
-  margin:250px 0 250px 180px;
+  margin: 250px 0 250px 180px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  background: linear-gradient(#dadada, #d3d3d3),
-      padding-box,
-      linear-gradient(22deg, #ffcc00, #242277, #ff8000) border-box;
+  background: linear-gradient(#dadada, #d3d3d3), padding-box, linear-gradient(22deg, #ffcc00, #242277, #ff8000) border-box;
   border: 5px solid transparent;
   border-radius: 20px;
-  }
+}
 
-  .gradient-border img{
-      position: absolute;
-      width: 250px;
-      height: auto;
-  }
+.gradient-border img {
+  position: absolute;
+  width: 250px;
+  height: auto;
+}
 
-
-    .footer-content .nav .nav-item a{
-    font-weight: 500;
-    font-size: 14px;
-    
-    }
+.footer-content .nav .nav-item a {
+  font-weight: 500;
+  font-size: 14px;
+}

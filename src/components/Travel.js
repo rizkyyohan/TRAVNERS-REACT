@@ -14,6 +14,10 @@ function Travel() {
     setSelectedCategory(e.target.value);
   };
 
+  const redirectToPurchase = () => {
+    window.location.href = "/pemesanan";
+  };
+
   const filteredDestinations = Data.filter((Data) => selectedCategory === "Semua" || Data.category === selectedCategory);
 
   return (
@@ -60,7 +64,7 @@ function Travel() {
         <div className="side-bar">
           <Sidebar />
         </div>
-        <div className="items-container">
+        <div className="items-container" onClick={redirectToPurchase}>
           <Card imageSrc="img/img-pantaiancol.png" title="Pantai Ancol, Jakarta Utara" location="Jakarta, Indonesia" price="RP 150.000" rating="4.4" />
           <Card imageSrc="img/img-pantaicarita.png" title="Pantai Carita, Jakarta Utara" location="Jakarta, Indonesia" price="RP 30.000" rating="4.3" />
           <Card imageSrc="img/img-museumnasional.png" title="Museum Nasional, Jakarta Pusat" location="Jakarta, Indonesia" price="RP 50.000" rating="4.6" />
@@ -75,6 +79,26 @@ function Travel() {
           <Card imageSrc="img/img-duniafantasi.png" title="Dunia Fantasi, Jakarta Utara" location="Jakarta, Indonesia" price="RP 310.000" rating="4.8" />
         </div>
       </section>
+
+      <footer>
+        <div className="footer-container">
+          <div className="footer-contact">
+            <h2>Contact Us</h2>
+            <p>Email: powerpioneers@gmail.com</p>
+            <p>Hotline: 123-456-7890</p>
+          </div>
+          <div className="footer-social-media">
+            <img src="img/LOGOPP.png" alt="" />
+            <h2>Social Media</h2>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+        <div className="footer-copyright">
+          <p>&copy; 2024 Power Pioners. All Rights Reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }

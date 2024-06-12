@@ -35,6 +35,25 @@ const ArtikelPage = () => {
           />
         </div>
       </div>
+      <footer>
+        <div className="footer-container">
+          <div className="footer-contact">
+            <h2>Contact Us</h2>
+            <p>Email: powerpioneers@gmail.com</p>
+            <p>Hotline: 123-456-7890</p>
+          </div>
+          <div className="footer-social-media">
+            <img src="img/LOGOPP.png" alt="" />
+            <h2>Social Media</h2>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+        <div className="footer-copyright">
+          <p>&copy; 2024 Power Pioners. All Rights Reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 };
