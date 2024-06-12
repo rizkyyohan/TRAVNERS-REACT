@@ -5,7 +5,7 @@ const Landing = () => {
   return (
     <div className="Landing">
       <header className="Header">
-        <div className="logo">
+        <div className="logo-header">
           <img src="images/img-logo.png" />
         </div>
         <a className="explore-button" href="/register">
@@ -13,22 +13,22 @@ const Landing = () => {
         </a>
       </header>
 
-      <section className="hero">
+      <section className="hero-landing">
         <img src="images/img-lp.png" alt="image" />
-        <div className="blur-box">
-          <div className="feature">
+        <div className="blur-box-landing">
+          <div className="feature-landing">
             <span className="icon">
               <i class="material-icons-outlined">thumb_up</i>
             </span>
             <p>Asuransi yang terjamin saat anda dalam perjalanan.</p>
           </div>
-          <div className="feature">
+          <div className="feature-landing">
             <span className="icon">
               <i class="material-icons-outlined">lock</i>
             </span>
             <p>Privasi yang terjamin.</p>
           </div>
-          <div className="feature">
+          <div className="feature-landing">
             <span className="icon">
               <i class="material-icons-outlined">schedule</i>
             </span>
@@ -61,8 +61,8 @@ const Landing = () => {
           </h2>
           <a href="#" style={{ color: "#242277" }}>
             Selengkapnya
+            <i class="material-icons-outlined">arrow_circle_right</i>
           </a>
-          <i class="material-icons-outlined">arrow_circle_right</i>
         </div>
 
         <div className="blog-posts">
@@ -76,27 +76,25 @@ const Landing = () => {
           <div className="artikel">
             <div className="blog-artikel">
               <img src="/images/img-blog-2.png" alt="Blog 2" />
-              <div className="blog-tag" style={{ margin: "40px 570px 0 0" }}>
+              <div className="blog-tag" style={{ margin: "100px 530px 0 25px" }}>
                 <p className="tag">Artikel</p>
               </div>
               <div className="blog-text">
                 <h4>22 April 2023</h4>
                 <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dui bibendum, interdum metus vitae, commodo felis. Nam vel metus commodo, gravida mi in, venenatis libero. Vivamus vel orci massa. Nam mattis interdum
-                  lobortis. Cras sem lorem, semper eu mollis et, accumsan mattis nisl. Cras sed nisl massa. Etiam dui diam, lacinia nec magna non, egestas ullamcorper dolor."
+                  "Jakarta, kota metropolitan yang selalu ramai dan dinamis, merupakan ibukota Indonesia yang menyimpan pesona unik dan tak terlupakan."
                 </p>
               </div>
             </div>
             <div className="blog-artikel">
               <img src="/images/img-blog-3.png" alt="Blog 3" />
-              <div className="blog-tag" style={{ margin: "50px 575px 0 0" }}>
+              <div className="blog-tag" style={{ margin: "110px 575px 0 25px" }}>
                 <p className="tag">Artikel</p>
               </div>
               <div className="blog-text">
                 <h4>22 April 2023</h4>
                 <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dui bibendum, interdum metus vitae, commodo felis. Nam vel metus commodo, gravida mi in, venenatis libero. Vivamus vel orci massa. Nam mattis interdum
-                  lobortis. Cras sem lorem, semper eu mollis et, accumsan mattis nisl. Cras sed nisl massa. Etiam dui diam, lacinia nec magna non, egestas ullamcorper dolor."
+                  "Bagi pecinta sejarah, Jakarta bagaikan surga tersembunyi. Jelajahi Kota Tua, kawasan bersejarah peninggalan Belanda dengan arsitekturnya yang menawan."
                 </p>
               </div>
             </div>

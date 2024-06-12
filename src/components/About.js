@@ -14,8 +14,8 @@ const About = () => {
             Tentang <span className="yellow-text">Kami</span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dui bibendum, interdum metus vitae, commodo felis. Nam vel metus commodo, gravida mi in, venenatis libero. Vivamus vel orci massa. Nam mattis interdum lobortis.
-            Cras sem lorem, semper eu mollis et, accumsan mattis nisl. Cras sed nisl massa. Etiam dui diam, lacinia nec magna non, egestas ullamcorper dolor.
+          Travners dirancang untuk memberikan informasi dan pelayanan yang menarik seputar destinasi wisata, fasilitas di tempat wisata, serta paket perjalanan yang disesuaikan khusus untuk penyandang disabilitas. 
+          Kami memfasilitasi pengguna dengan kemudahan mencari dan mendapatkan informasi terkini mengenai destinasi wisata yang ramah bagi penyandang disabilitas.
           </p>
         </div>
         <div className="about-right">

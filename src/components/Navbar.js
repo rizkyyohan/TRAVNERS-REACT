@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="/travel">Paket Travel</a>
         </li>
         <li>
-          <a href="/artikel">Artikel</a>
+          <a href="/article">Artikel</a>
         </li>
       </ul>
       <AuthButton /> {/* Use AuthButton */}

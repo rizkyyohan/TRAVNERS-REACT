@@ -60,6 +60,7 @@ body {
 }
 
 button.nama {
+  margin: 0;
   background-color: white;
   color: #242277;
   font-size: 18px;

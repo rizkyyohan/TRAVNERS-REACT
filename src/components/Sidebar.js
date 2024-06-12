@@ -55,20 +55,15 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className="other-features">
+      <div className='other-features'>
         <h2>Fitur Lainnya</h2>
         <ul>
-          <li>
-            <a href="#">Buka Sekarang</a>
-          </li>
-          <li>
-            <a href="#">Special Promo</a>
-          </li>
-          <li>
-            <a href="#">Booking</a>
-          </li>
+          <li><a href="#">Buka Sekarang</a></li>
+          <li><a href="#">Special Promo</a></li>
+          <li><a href="#">Booking</a></li>
         </ul>
       </div>
+      
     </div>
   );
 };
