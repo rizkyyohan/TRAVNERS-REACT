@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  margin-left: 100px;
 }
 
 .logo-header {
@@ -26,20 +26,8 @@
   cursor: pointer;
 }
 
-/****/
-* {
-  padding: 0;
-  margin: 10px 15px;
-  color: #242277;
-}
-
-.hero {
-  position: relative;
-  text-align: center;
-  color: #242277;
-}
-
 .hero-landing img {
+  margin-left: 80px;
   width: 90%;
   height: auto;
 }

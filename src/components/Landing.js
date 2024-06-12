@@ -59,9 +59,8 @@ const Landing = () => {
           <h2>
             <span className="yellow-text">Power</span> Pioneers <span className="yellow-text">Travel</span> Blog
           </h2>
-          <a href="#" style={{ color: "#242277" }}>
+          <a href="/login" style={{ color: "#242277" }}>
             Selengkapnya
-            <i class="material-icons-outlined">arrow_circle_right</i>
           </a>
         </div>
 
@@ -81,9 +80,7 @@ const Landing = () => {
               </div>
               <div className="blog-text">
                 <h4>22 April 2023</h4>
-                <p>
-                  "Jakarta, kota metropolitan yang selalu ramai dan dinamis, merupakan ibukota Indonesia yang menyimpan pesona unik dan tak terlupakan."
-                </p>
+                <p>"Jakarta, kota metropolitan yang selalu ramai dan dinamis, merupakan ibukota Indonesia yang menyimpan pesona unik dan tak terlupakan."</p>
               </div>
             </div>
             <div className="blog-artikel">
@@ -93,9 +90,7 @@ const Landing = () => {
               </div>
               <div className="blog-text">
                 <h4>22 April 2023</h4>
-                <p>
-                  "Bagi pecinta sejarah, Jakarta bagaikan surga tersembunyi. Jelajahi Kota Tua, kawasan bersejarah peninggalan Belanda dengan arsitekturnya yang menawan."
-                </p>
+                <p>"Bagi pecinta sejarah, Jakarta bagaikan surga tersembunyi. Jelajahi Kota Tua, kawasan bersejarah peninggalan Belanda dengan arsitekturnya yang menawan."</p>
               </div>
             </div>
           </div>
