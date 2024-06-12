@@ -10,6 +10,10 @@ import KonfirmasiPembayaran from "./components/KonfirmasiPembayaran";
 import About from "./components/About";
 import Travel from "./components/Travel";
 import ArtikelPage from "./components/ArtikelPage";
+import Article from "./components/Article";
+import ArticleDetail from "./components/ArticleDetail";
+
+
 
 function App() {
   return (
@@ -26,7 +30,9 @@ function App() {
           <Route path="/konfirmasi" element={<KonfirmasiPembayaran />} />
           <Route path="/about" element={<About />} />
           <Route path="/travel" element={<Travel />} />
-          <Route path="/artikel" element={<ArtikelPage />} />
+          <Route path='/article' element={<Article/>}/>
+          <Route path='/articledetail' element={<ArticleDetail/>}/>
+          <Route path="/articles/:id" element={<ArticleDetail/>} />
         </Routes>
       </div>
     </Router>

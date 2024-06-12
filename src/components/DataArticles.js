@@ -2,7 +2,7 @@ const articles = [
         {
           "id": 1,
           "title": "Mau liburan ke Jakarta? Sambangi wisata terkenalnya",
-          "excerpt": "Ini adalah ringkasan artikel 1.",
+          "excerpt": " ",
           "tag": "Rekomendasi",
           "image": "/images/img-artikel-1.png",
           "content": '',
@@ -10,7 +10,7 @@ const articles = [
         {
           "id": 2,
           "title": "Tips Berwisata Di Jakarta",
-          "excerpt": "Ini adalah ringkasan artikel 2.",
+          "excerpt": " ",
           "tag": "Tips",
           "image": "/images/img-artikel-2.png"
         },

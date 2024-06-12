@@ -13,22 +13,23 @@ const ArticleDetail = () => {
         return (
           <>
             <p>
-              Jakarta, ibukota Indonesia, merupakan kota metropolitan yang penuh dengan gemerlap dan kesibukan. Namun, di balik hiruk pikuknya, Jakarta juga menyimpan pesona wisata yang tak kalah menarik. Bagi kamu yang ingin berlibur ke
-              Jakarta, berikut beberapa wisata terkenal yang wajib kamu kunjungi:
-            </p>
-            <p>Wisata Bersejarah dan Budaya:</p>
-            <p>Monumen Nasional (Monas): Ikon kota Jakarta yang menjulang tinggi ini menjadi simbol perjuangan bangsa Indonesia. Di puncak Monas, kamu dapat menikmati pemandangan kota Jakarta yang indah.</p>
-            <p>Kota Tua: Jelajahi kawasan bersejarah peninggalan Belanda ini dengan arsitekturnya yang unik. Kunjungi Museum Fatahillah, Museum Wayang, Cafe Batavia, dan spot-spot foto instagramable lainnya.</p>
-            <p>Taman Mini Indonesia Indah (TMII):Kenali kekayaan budaya Indonesia dari berbagai daerah di taman wisata budaya ini. Saksikan rumah adat, tarian tradisional, dan pertunjukan budaya lainnya</p>
-            <p>Semoga informasi ini membantu kamu dalam merencanakan liburan ke Jakarta!.</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              Jakarta, ibukota Indonesia, merupakan kota metropolitan yang penuh dengan gemerlap dan kesibukan. Namun, di balik hiruk pikuknya, Jakarta juga menyimpan pesona wisata yang tak kalah menarik.</p>
+            <p>Bagi kamu yang ingin berlibur ke Jakarta, berikut beberapa wisata terkenal yang wajib kamu kunjungi:</p>
+            <p style={{fontWeight:'bold'}}>Wisata Bersejarah dan Budaya:</p>
+            <p>1. Monumen Nasional (Monas): Ikon kota Jakarta yang menjulang tinggi ini menjadi simbol perjuangan bangsa Indonesia. Di puncak Monas, kamu dapat menikmati pemandangan kota Jakarta yang indah.</p>
+            <img src="/images/img-artikel-monas.png" alt="monas" style={{width:'30%'}}></img>
+            <p>2. Kota Tua: Jelajahi kawasan bersejarah peninggalan Belanda ini dengan arsitekturnya yang unik. Kunjungi Museum Fatahillah, Museum Wayang, Cafe Batavia, dan spot-spot foto instagramable lainnya.</p>
+            <img src="/images/img-artikel-kotatua.png" alt="kota tua" style={{width:'30%'}}></img>
+            <p>3. Taman Mini Indonesia Indah (TMII):Kenali kekayaan budaya Indonesia dari berbagai daerah di taman wisata budaya ini. Saksikan rumah adat, tarian tradisional, dan pertunjukan budaya lainnya</p>
+            <img src="/images/img-artikel-TMII.png" alt="TMII" style={{width:'30%'}}></img>
+            <p style={{fontWeight:'bold'}}>Semoga informasi ini membantu kamu dalam merencanakan liburan ke Jakarta!.</p>
+            
           </>
         );
       case 2:
         return (
           <>
-            <p>Ini adalah konten panjang dari Artikel 2. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
-            <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra nulla.</p>
+            
           </>
         );
       case 3:
